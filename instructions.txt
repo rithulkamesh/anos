@@ -1,4 +1,8 @@
-Instructions for Anos CPU
+ABOUT: A CPU Designed to run brainfuck code
+
+NOTES:
+ - 8-bit
+
 
 ======
 
@@ -9,3 +13,18 @@ Instructions for Anos CPU
 5: PRINT
 254: HALT
 255: EOF
+
+======
+
+==========Brainfuck Instructions==========
+
+>: Inc ptr
+<: Dec ptr
++: Inc val at ptr
+-: Dec val at ptr
+.: Print value
+,: Input value
+[: If value @ ptr = 0, Loop contents
+]: If value @ ptr != 0, Go back to [
+
+====================End====================  
