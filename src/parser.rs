@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Copy, Clone)]
 pub enum Instructions {
     IncPtr,
     DecPtr,
@@ -7,7 +7,7 @@ pub enum Instructions {
     PrintVal,
     ReadVal,
     LoopStart,
-    LoopEnd
+    LoopEnd,
 }
 
 #[derive(Debug)]

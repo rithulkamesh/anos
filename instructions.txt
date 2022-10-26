@@ -3,19 +3,6 @@ ABOUT: A CPU Designed to run brainfuck code
 NOTES:
  - 8-bit
 
-
-======
-
-1: ADD
-2: SUB
-3: LOAD
-4: STORE
-5: PRINT
-254: HALT
-255: EOF
-
-======
-
 ==========Brainfuck Instructions==========
 
 >: Inc ptr
